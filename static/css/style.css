@@ -1,0 +1,15 @@
+body {
+    padding: 10px
+}
+
+#pokoteng-sleep {
+    width: 580px;
+    height: 487px;
+    scale: 50%;
+    background-image: url("../assets/pokoteng-sleep.gif");
+    background-size: cover;
+    padding: 10px 12px;
+    cursor: move;
+    position: relative;
+    /* important (all position that's not `static`) */
+}
