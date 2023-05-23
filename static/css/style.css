@@ -1,15 +1,56 @@
 body {
-    padding: 10px
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    position: relative;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 46%, rgba(0, 212, 255, 1) 100%);
 }
 
-#pokoteng-sleep {
-    width: 580px;
-    height: 487px;
-    scale: 50%;
-    background-image: url("../assets/pokoteng-sleep.gif");
-    background-size: cover;
-    padding: 10px 12px;
+.draggable {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    height: 310px;
+    width: 200px;
+}
+
+.draggable-header {
     cursor: move;
-    position: relative;
-    /* important (all position that's not `static`) */
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+    height: 30px;
+    width: 200px;
+}
+
+.card-image {
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+    height: 200px;
+    width: 200px;
+}
+
+.card-description {
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+    height: 70px;
+    width: 200px;
+}
+
+#a {
+    left: 20vw;
+    box-shadow: 10px -16px teal;
+}
+
+#b {
+    left: 40vw;
+    box-shadow: 10px -16px gold;
+}
+
+#c {
+    left: 60vw;
+    box-shadow: 10px -16px maroon;
 }

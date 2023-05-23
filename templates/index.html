@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="draggable" id="a">
+        <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+        <div class="draggable-header" id="a-child">
+            Pokoteng A
+        </div>
+        <img class="card-image" src="{{ url_for('static', filename='assets/pokoteng-sleep.gif')}}" alt="" srcset="" />
+        <div class="card-description">
+            <textarea>He Sleeps. Awaken Him!</textarea>
+        </div>
+    </div>
+    <div class="draggable" id="b">
+        <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+        <div class="draggable-header" id="b-child">
+            Pokoteng B
+        </div>
+        <img class="card-image" src="{{ url_for('static', filename='assets/pokoteng-sleep.gif')}}" alt="" srcset="" />
+        <div class="card-description">
+            <textarea>He Sleeps. Awaken Him!</textarea>
+        </div>
+    </div>
+    <div class="draggable" id="c">
+        <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+        <div class="draggable-header" id="c-child">
+            Pokoteng C
+        </div>
+        <img class="card-image" src="{{ url_for('static', filename='assets/pokoteng-sleep.gif')}}" alt="" srcset="" />
+        <div class="card-description">
+            <textarea>He Sleeps. Awaken Him!</textarea>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/draggable.js')}}"></script>
+</body>
+
+</html>
